@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#FFDD00"
+        android:text="welcom "
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/ed"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="#FFDD00"
+        android:ems="10"
+        android:hint="Name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="#FFDD00"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="#FFDD00"
+        android:ems="10"
+        android:hint="Your job"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:background="#FFDD00"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/ed5"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:background="#FFDD00"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ed5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#FFDD00"
+        android:text="Next" />
+
+</RelativeLayout>
